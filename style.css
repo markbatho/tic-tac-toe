@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 64px);
+  gap: 8px;
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
+  aspect-ratio: 1;
+  cursor: pointer;
+}
