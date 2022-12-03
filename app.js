@@ -115,8 +115,6 @@ const game = ((gameBoard) => {
         squareValues.push(squares[item]);
       });
 
-      console.log(squareValues);
-
       const hasWinner = squareValues.every((val, i, arr) => {
         if (arr[0] !== null) {
           return val === arr[0];
